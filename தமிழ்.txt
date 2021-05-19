@@ -1,2 +1,17 @@
 operator - செயற்குறிகள்
 operand - செயலேற்பிகள்
+
+If                     = எனில்
+Call                   = அழை
+While                  = போது
+For                    = ஆக
+Do                     = செய்
+Function               = செயற்கூறு
+Parameter              = அளபுரு
+Breakpoint             = நிறுத்தப்புள்ளி
+
+And                    = மற்றும்
+Or                     = அல்லது
+Not                    = அல்ல
+
+Cyberspace           = இணையகலம்
