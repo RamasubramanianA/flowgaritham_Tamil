@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ramasubramaniayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-20 05:21:30 PM"/>
+        <attribute name="created" value="UmFtYXN1YnJhbWFuaWF5YW47UkFNOzIwMjEtMDUtMjA7MDQ6MTM6MDggUE07MzI2OA=="/>
+        <attribute name="edited" value="UmFtYXN1YnJhbWFuaWF5YW47UkFNOzIwMjEtMDUtMjA7MDU6MjE6MzAgUE07MjszMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quotient, Divident, Divisor" type="Integer" array="False" size=""/>
+            <input variable="Divident"/>
+            <input variable="Divisor"/>
+            <assign variable="Quotient" expression="Divide(Divident,Divisor)"/>
+            <output expression="&quot;The Quotient is&quot;" newline="True"/>
+            <output expression="Quotient" newline="True"/>
+        </body>
+    </function>
+    <function name="Divide" type="Integer" variable="result">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <assign variable="result" expression="a/b"/>
+        </body>
+    </function>
+</flowgorithm>
