@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ramasubramaniayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-29 12:09:29 AM"/>
+        <attribute name="created" value="UmFtYXN1YnJhbWFuaWF5YW47UkFNOzIwMjEtMDUtMjg7MTE6MTA6MjggUE07MzI3Mw=="/>
+        <attribute name="edited" value="UmFtYXN1YnJhbWFuaWF5YW47UkFNOzIwMjEtMDUtMjk7MTI6MDk6MjkgQU07MjszMzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <input variable="name"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="8" end="0" direction="dec" step="2">
+                <if expression="(i % 3) == 0">
+                    <then>
+                        <output expression="&quot;Hello &quot; &amp;name" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="(i % 4 ) == 0">
+                            <then>
+                                <output expression="&quot;Hi &quot; &amp;name" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Dear &quot; &amp;name" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
